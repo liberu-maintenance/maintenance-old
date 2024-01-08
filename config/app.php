@@ -175,12 +175,12 @@ return [
         App\Providers\AuthServiceProvider::class,
         App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
-        App\Providers\HorizonServiceProvider::class,
+        // App\Providers\HorizonServiceProvider::class,
         App\Providers\TelescopeServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         App\Providers\CalendarServiceProvider::class,
-        Constantable\SphinxScout\ServiceProvider::class,
-        Laravel\Scout\ScoutServiceProvider::class,
+        // Constantable\SphinxScout\ServiceProvider::class,
+        // Laravel\Scout\ScoutServiceProvider::class,
     ],
 
     /*
