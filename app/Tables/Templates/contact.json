@@ -1,0 +1,38 @@
+{
+    "name": "Contact",
+    "routePrefix": "contact",
+    "crtNo": true,
+    "buttons": ["excel", "create", "show", "edit", "destroy"],
+    "columns": [
+        {
+            "label": "Contact ID",
+            "name": "id",
+            "data": "contacts.contact_id",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Name",
+            "name": "name",
+            "data": "contacts.name",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Last Name",
+            "name": "last_name",
+            "data": "contacts.last_name",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Email",
+            "name": "email",
+            "data": "contacts.email",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Phone Number",
+            "name": "phone_number",
+            "data": "contacts.phone_number",
+            "meta": ["searchable", "sortable"]
+        }
+    ]
+}

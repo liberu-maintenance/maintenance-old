@@ -1,0 +1,68 @@
+{
+    "name": "Company",
+    "routePrefix": "company",
+    "crtNo": true,
+    "buttons": ["excel", "create", "show", "edit", "destroy"],
+    "columns": [
+        {
+            "label": "Company ID",
+            "name": "id",
+            "data": "companies.company_id",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Name",
+            "name": "name",
+            "data": "companies.name",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Address",
+            "name": "address",
+            "data": "companies.address",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "City",
+            "name": "city",
+            "data": "companies.city",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "State",
+            "name": "state",
+            "data": "companies.state",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Zip",
+            "name": "zip",
+            "data": "companies.zip",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Phone Number",
+            "name": "phone_number",
+            "data": "companies.phone_number",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Website",
+            "name": "website",
+            "data": "companies.website",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Industry",
+            "name": "industry",
+            "data": "companies.industry",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Description",
+            "name": "description",
+            "data": "companies.description",
+            "meta": ["searchable", "sortable"]
+        }
+    ]
+}

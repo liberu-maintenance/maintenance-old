@@ -1,0 +1,56 @@
+{
+    "name": "Task",
+    "routePrefix": "task",
+    "crtNo": true,
+    "buttons": ["excel", "create", "show", "edit", "destroy"],
+    "columns": [
+        {
+            "label": "Task ID",
+            "name": "id",
+            "data": "tasks.task_id",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Description",
+            "name": "description",
+            "data": "tasks.description",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Due Date",
+            "name": "due_date",
+            "data": "tasks.due_date",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Status",
+            "name": "status",
+            "data": "tasks.status",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Priority",
+            "name": "priority",
+            "data": "tasks.priority",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Contact ID",
+            "name": "contact_id",
+            "data": "tasks.contact_id",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Company ID",
+            "name": "company_id",
+            "data": "tasks.company_id",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Opportunity ID",
+            "name": "opportunity_id",
+            "data": "tasks.opportunity_id",
+            "meta": ["searchable", "sortable"]
+        }
+    ]
+}

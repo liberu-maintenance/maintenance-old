@@ -1,0 +1,95 @@
+{
+  "routePrefix": "company",
+  "tabs": true,
+  "sections": [
+    {
+      "tab": "Company",
+      "columns": 3,
+      "fields": [
+        {
+          "label": "Name",
+          "name": "name",
+          "value": null,
+          "meta": {
+            "type": "input",
+            "content": "text"
+          }
+        },
+        {
+          "label": "Address",
+          "name": "address",
+          "value": null,
+          "meta": {
+            "type": "input",
+            "content": "text"
+          }
+        },
+        {
+          "label": "City",
+          "name": "city",
+          "value": null,
+          "meta": {
+            "type": "input",
+            "content": "text"
+          }
+        },
+        {
+          "label": "State",
+          "name": "state",
+          "value": null,
+          "meta": {
+            "type": "input",
+            "content": "text"
+          }
+        },
+        {
+          "label": "Zip",
+          "name": "zip",
+          "value": null,
+          "meta": {
+            "type": "input",
+            "content": "text"
+          }
+        },
+        {
+          "label": "Phone Number",
+          "name": "phone_number",
+          "value": null,
+          "meta": {
+            "type": "input",
+            "content": "text"
+          }
+        },
+        {
+          "label": "Website",
+          "name": "website",
+          "value": null,
+          "meta": {
+            "type": "input",
+            "content": "text"
+          }
+        },
+        {
+          "label": "Industry",
+          "name": "industry",
+          "value": null,
+          "meta": {
+            "type": "input",
+            "content": "text"
+          }
+        },
+        {
+          "label": "Description",
+          "name": "description",
+          "value": null,
+          "meta": {
+            "type": "textarea",
+            "placeholder": "Enter Description",
+            "rows": 5,
+            "resize": true
+          }
+        }
+      ]
+    }
+  ]
+}

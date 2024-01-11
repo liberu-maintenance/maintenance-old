@@ -1,0 +1,38 @@
+{
+    "name": "Note",
+    "routePrefix": "note",
+    "crtNo": true,
+    "buttons": ["excel", "create", "show", "edit", "destroy"],
+    "columns": [
+        {
+            "label": "Note ID",
+            "name": "id",
+            "data": "notes.note_id",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Content",
+            "name": "content",
+            "data": "notes.content",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Contact ID",
+            "name": "contact_id",
+            "data": "notes.contact_id",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Company ID",
+            "name": "company_id",
+            "data": "notes.company_id",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Opportunity ID",
+            "name": "opportunity_id",
+            "data": "notes.opportunity_id",
+            "meta": ["searchable", "sortable"]
+        }
+    ]
+}

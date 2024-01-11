@@ -1,0 +1,39 @@
+{
+  "routePrefix": "opportunity",
+  "tabs": true,
+  "sections": [
+    {
+      "tab": "Opportunity",
+      "columns": 3,
+      "fields": [
+        {
+          "label": "Deal Size",
+          "name": "deal_size",
+          "value": null,
+          "meta": {
+            "type": "input",
+            "content": "text"
+          }
+        },
+        {
+          "label": "Stage",
+          "name": "stage",
+          "value": null,
+          "meta": {
+            "type": "input",
+            "content": "text"
+          }
+        },
+        {
+          "label": "Closing Date",
+          "name": "closing_date",
+          "value": null,
+          "meta": {
+            "type": "input",
+            "content": "date"
+          }
+        }
+      ]
+    }
+  ]
+}

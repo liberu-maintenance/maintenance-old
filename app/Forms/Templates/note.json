@@ -1,0 +1,55 @@
+{
+    "routePrefix": "note",
+    "tabs": true,
+    "sections": [
+      {
+        "tab": "Note",
+        "columns": 1,
+        "fields": [
+          {
+            "label": "Content",
+            "name": "content",
+            "value": null,
+            "meta": {
+              "type": "textarea",
+              "placeholder": "Enter Note Content",
+              "rows": 5,
+              "resize": true
+            }
+          },
+          {
+            "label": "Contact ID",
+            "name": "contact_id",
+            "value": null,
+            "meta": {
+              "type": "input",
+              "content": "select",
+              "source": "contacts.contact_id"
+
+            }
+          },
+          {
+            "label": "Company ID",
+            "name": "company_id",
+            "value": null,
+            "meta": {
+              "type": "input",
+              "content": "select",
+              "source": "companies.company_id"
+            }
+          },
+          {
+            "label": "Opportunity ID",
+            "name": "opportunity_id",
+            "value": null,
+            "meta": {
+              "type": "input",
+              "content": "select",
+               "source": "opportunities.opportunity_id"
+            }
+          }
+        ]
+      }
+    ]
+  }
+  

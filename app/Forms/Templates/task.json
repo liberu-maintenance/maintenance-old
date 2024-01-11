@@ -1,0 +1,80 @@
+{
+  "routePrefix": "task",
+  "tabs": true,
+  "sections": [
+    {
+      "tab": "Task",
+      "columns": 7,
+      "fields": [
+        {
+          "label": "Description",
+          "name": "description",
+          "value": null,
+          "meta": {
+            "type": "textarea",
+            "placeholder": "Enter Description",
+            "rows": 5,
+            "resize": true
+          }
+        },
+        {
+          "label": "Due Date",
+          "name": "due_date",
+          "value": null,
+          "meta": {
+            "type": "input",
+            "content": "date"
+          }
+        },
+        {
+          "label": "Status",
+          "name": "status",
+          "value": null,
+          "meta": {
+            "type": "input",
+            "content": "text"
+          }
+        },
+        {
+          "label": "Priority",
+          "name": "priority",
+          "value": null,
+          "meta": {
+            "type": "input",
+            "content": "text"
+          }
+        },
+        {
+          "label": "Contact ID",
+          "name": "contact_id",
+          "value": null,
+          "meta": {
+            "type": "input",
+            "content": "select",
+            "source": "contacts.contact_id"
+          }
+        },
+        {
+          "label": "Company ID",
+          "name": "company_id",
+          "value": null,
+          "meta": {
+            "type": "input",
+            "content": "select",
+            "source": "companies.company_id"
+          }
+        },
+        {
+          "label": "Opportunity ID",
+          "name": "opportunity_id",
+          "value": null,
+          "meta": {
+            "type": "input",
+            "content": "select",
+            "source": "opportunities.opportunity_id"
+          }
+        }
+      ]
+    }
+  ]
+}

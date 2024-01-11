@@ -1,0 +1,32 @@
+{
+    "name": "Opportunity",
+    "routePrefix": "opportunity",
+    "crtNo": true,
+    "buttons": ["excel", "create", "show", "edit", "destroy"],
+    "columns": [
+        {
+            "label": "Opportunity ID",
+            "name": "id",
+            "data": "opportunities.opportunity_id",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Deal Size",
+            "name": "deal_size",
+            "data": "opportunities.deal_size",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Stage",
+            "name": "stage",
+            "data": "opportunities.stage",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Closing Date",
+            "name": "closing_date",
+            "data": "opportunities.closing_date",
+            "meta": ["searchable", "sortable"]
+        }
+    ]
+}
