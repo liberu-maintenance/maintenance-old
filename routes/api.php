@@ -1,5 +1,5 @@
 <?php
-
+use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Company\Admin\Create as CompanyCreate;
 use App\Http\Controllers\Company\Admin\Destroy as CompanyDestroy;
 use App\Http\Controllers\Company\Admin\Edit as CompanyEdit;
